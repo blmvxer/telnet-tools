@@ -1,0 +1,11 @@
+# Fingerprint dictionary
+#
+# [OEM]:[Service Type]=[Fingerprint String]
+#
+RDK:Docsis-Gateway=Docsis-Gateway (Yocto) RDK 2.0
+RDK:Business=Business (Yocto) RDK 2.0
+BCM:96318=BCM96318 Broadband Router
+KWS:-1043N=Clipcomm Wireless Router (KWS-1043N)
+Broadband:Router=Unknown Broadband Router
+User Access:Verification=Unknown Telnet with password prompt
+script:v6.9=Possible honeypot
