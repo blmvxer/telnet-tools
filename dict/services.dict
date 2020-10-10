@@ -9,3 +9,5 @@ KWS:-1043N=Clipcomm Wireless Router (KWS-1043N)
 Broadband:Router=Unknown Broadband Router
 User Access:Verification=Unknown Telnet with password prompt
 script:v6.9=Possible honeypot
+MOVISTAR:Cisco=MOVISTAR Cisco Systems
+Huawei:Home=Huawei Telnet

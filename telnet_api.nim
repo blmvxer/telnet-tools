@@ -1,4 +1,4 @@
-import tools/fingerprint
+import tools/fingerprint, tools/bruteforce
 
 #
 # telnetFingerprint allows hostFile which is a file with IP Addr's
