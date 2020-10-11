@@ -2,10 +2,10 @@ import net, nativesockets, fab, strutils, os, netTest
 
 var
   services = open("dict/services.dict", fmRead)
-  debug: bool
+  fingerDebug*: bool
   hostMsgs: seq[string]
 
-debug = false
+export fingerDebug
 
 proc checkOutbound(): bool =
   if testConn("cloudflare", 2000) == @[true, true]:
@@ -14,7 +14,7 @@ proc checkOutbound(): bool =
     return false
 
 proc dPrint(dStr: string) =
-  if debug == false:
+  if fingerDebug == false:
     discard
   else:
     let output = "Debug: " & dStr

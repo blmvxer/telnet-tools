@@ -6,3 +6,4 @@ tools/test.nim
 telnet_api
 tools/bruteforce
 tools/fingerprint
+tools/ip.txt
